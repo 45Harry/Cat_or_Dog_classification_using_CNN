@@ -22,10 +22,8 @@ This project demonstrates how to build and train a CNN model to classify images 
    cd cat-dog-classifier
 
     Install the required dependencies:
-    bash
-    Copy
-
-    pip install tensorflow numpy
+ 
+     pip install tensorflow numpy
 
 Usage
 
@@ -47,8 +45,6 @@ Usage
     Train the Model:
 
         Run the provided script to train the CNN model:
-        python
-        Copy
 
         python train.py
 
@@ -61,7 +57,6 @@ Dataset
 The dataset should contain images of cats and dogs organized into train and test directories. Each directory should have subdirectories for cat and dog images.
 
 Example structure:
-Copy
 
 Datasets/
   train/
@@ -101,9 +96,7 @@ To predict whether an image contains a cat or a dog:
     Place the image in the Datasets/prediction_data/ folder.
 
     Run the prediction code:
-    python
-    Copy
-
+    
     img = tf.keras.preprocessing.image.load_img('path_to_image.jpg', target_size=(64, 64))
     img = tf.keras.preprocessing.image.img_to_array(img)
     img = np.expand_dims(img, axis=0)
