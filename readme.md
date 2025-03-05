@@ -1,7 +1,3 @@
-README.md
-markdown
-Copy
-
 # Cat or Dog Binary Classifier using CNN
 
 This project is a binary image classifier that distinguishes between cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
