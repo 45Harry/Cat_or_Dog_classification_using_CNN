@@ -18,8 +18,8 @@ This project demonstrates how to build and train a CNN model to classify images 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cat-dog-classifier.git
-   cd cat-dog-classifier
+   git clone https://github.com/45Harry/Cat_or_Dog_classification_using_CNN
+   cd Cat_or_Dog_classification_using_CNN
 
     Install the required dependencies:
  
